@@ -1,0 +1,21 @@
+.PRUEBA2 {
+	margin: 10px;
+	width: 195px;
+	height: 370px;
+    background-color: #291639;
+	border: 1px solid #08020d;
+	transition-property: width, height, background-color;
+	transition-duration: 0.5s, 1s, 1s;
+	transition-timing-function: ease, ease-out;
+	transition-delay: 0s, 0.5s, 1.5s;
+}
+.PRUEBA2:HOVER {
+	width: 400px;
+	height: 330px;
+	background-color:  #8e7f99;
+	transition-property: width, height, background-color;
+	transition-duration: 0.5s ,0.5s ,0.5s;
+	transition-timing-function: linear, linear;
+	transition-delay: 0s ,0.5s, 0.5; 
+
+}
